@@ -1,0 +1,21 @@
+{
+  "name": "dead-frontier-outpost",
+  "version": "1.0.0",
+  "description": "DEAD FRONTIER: OUTPOST - 2D top-down zombie survival and automated base-defence game",
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite",
+    "electron": "electron ."
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "electron": "^45.2.3",
+    "vite": "^8.3.6"
+  }
+}

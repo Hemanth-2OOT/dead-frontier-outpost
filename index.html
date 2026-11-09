@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>DEAD FRONTIER: OUTPOST</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #13151a;
+      color: #d9dacf;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #game-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    canvas {
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-crisp-edges;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      display: block;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    }
+    /* Loading overlay */
+    #loading-screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #171a1c;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 100;
+      transition: opacity 0.3s ease;
+    }
+    #loading-screen h1 {
+      font-size: 32px;
+      letter-spacing: 4px;
+      color: #d6893c;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 0 #13151a;
+    }
+    #loading-screen p {
+      font-size: 14px;
+      color: #7b8489;
+      margin-bottom: 24px;
+      letter-spacing: 2px;
+    }
+    .progress-bar-container {
+      width: 320px;
+      height: 16px;
+      background: #262c30;
+      border: 2px solid #5b676d;
+      padding: 2px;
+    }
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: #d6893c;
+      transition: width 0.1s linear;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container"></div>
+  <div id="loading-screen">
+    <h1>DEAD FRONTIER: OUTPOST</h1>
+    <p>BUILD. AUTOMATE. FORTIFY. SURVIVE.</p>
+    <div class="progress-bar-container">
+      <div id="loading-progress" class="progress-bar"></div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

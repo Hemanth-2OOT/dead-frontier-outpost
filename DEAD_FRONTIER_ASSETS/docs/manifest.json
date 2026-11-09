@@ -1,0 +1,5333 @@
+{
+ "project": "DEAD FRONTIER: OUTPOST",
+ "version": 1,
+ "assets": [
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_idle_down.png",
+   "frame_files": [
+    "characters/player/player_idle_down_00.png",
+    "characters/player/player_idle_down_01.png",
+    "characters/player/player_idle_down_02.png",
+    "characters/player/player_idle_down_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_idle_up.png",
+   "frame_files": [
+    "characters/player/player_idle_up_00.png",
+    "characters/player/player_idle_up_01.png",
+    "characters/player/player_idle_up_02.png",
+    "characters/player/player_idle_up_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_idle_left.png",
+   "frame_files": [
+    "characters/player/player_idle_left_00.png",
+    "characters/player/player_idle_left_01.png",
+    "characters/player/player_idle_left_02.png",
+    "characters/player/player_idle_left_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_idle_right.png",
+   "frame_files": [
+    "characters/player/player_idle_right_00.png",
+    "characters/player/player_idle_right_01.png",
+    "characters/player/player_idle_right_02.png",
+    "characters/player/player_idle_right_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_walk_down.png",
+   "frame_files": [
+    "characters/player/player_walk_down_00.png",
+    "characters/player/player_walk_down_01.png",
+    "characters/player/player_walk_down_02.png",
+    "characters/player/player_walk_down_03.png",
+    "characters/player/player_walk_down_04.png",
+    "characters/player/player_walk_down_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player loop while moving",
+   "loop": true
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_walk_up.png",
+   "frame_files": [
+    "characters/player/player_walk_up_00.png",
+    "characters/player/player_walk_up_01.png",
+    "characters/player/player_walk_up_02.png",
+    "characters/player/player_walk_up_03.png",
+    "characters/player/player_walk_up_04.png",
+    "characters/player/player_walk_up_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player loop while moving",
+   "loop": true
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_walk_left.png",
+   "frame_files": [
+    "characters/player/player_walk_left_00.png",
+    "characters/player/player_walk_left_01.png",
+    "characters/player/player_walk_left_02.png",
+    "characters/player/player_walk_left_03.png",
+    "characters/player/player_walk_left_04.png",
+    "characters/player/player_walk_left_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player loop while moving",
+   "loop": true
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_walk_right.png",
+   "frame_files": [
+    "characters/player/player_walk_right_00.png",
+    "characters/player/player_walk_right_01.png",
+    "characters/player/player_walk_right_02.png",
+    "characters/player/player_walk_right_03.png",
+    "characters/player/player_walk_right_04.png",
+    "characters/player/player_walk_right_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player loop while moving",
+   "loop": true
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_shoot_down.png",
+   "frame_files": [
+    "characters/player/player_shoot_down_00.png",
+    "characters/player/player_shoot_down_01.png",
+    "characters/player/player_shoot_down_02.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 3,
+   "animation": "shoot",
+   "frame_duration_ms": 70,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot on fire",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_shoot_up.png",
+   "frame_files": [
+    "characters/player/player_shoot_up_00.png",
+    "characters/player/player_shoot_up_01.png",
+    "characters/player/player_shoot_up_02.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 3,
+   "animation": "shoot",
+   "frame_duration_ms": 70,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot on fire",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_shoot_left.png",
+   "frame_files": [
+    "characters/player/player_shoot_left_00.png",
+    "characters/player/player_shoot_left_01.png",
+    "characters/player/player_shoot_left_02.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 3,
+   "animation": "shoot",
+   "frame_duration_ms": 70,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot on fire",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_shoot_right.png",
+   "frame_files": [
+    "characters/player/player_shoot_right_00.png",
+    "characters/player/player_shoot_right_01.png",
+    "characters/player/player_shoot_right_02.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 3,
+   "animation": "shoot",
+   "frame_duration_ms": 70,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot on fire",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_reload_down.png",
+   "frame_files": [
+    "characters/player/player_reload_down_00.png",
+    "characters/player/player_reload_down_01.png",
+    "characters/player/player_reload_down_02.png",
+    "characters/player/player_reload_down_03.png",
+    "characters/player/player_reload_down_04.png",
+    "characters/player/player_reload_down_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "reload",
+   "frame_duration_ms": 150,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot reload",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_reload_up.png",
+   "frame_files": [
+    "characters/player/player_reload_up_00.png",
+    "characters/player/player_reload_up_01.png",
+    "characters/player/player_reload_up_02.png",
+    "characters/player/player_reload_up_03.png",
+    "characters/player/player_reload_up_04.png",
+    "characters/player/player_reload_up_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "reload",
+   "frame_duration_ms": 150,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot reload",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_reload_left.png",
+   "frame_files": [
+    "characters/player/player_reload_left_00.png",
+    "characters/player/player_reload_left_01.png",
+    "characters/player/player_reload_left_02.png",
+    "characters/player/player_reload_left_03.png",
+    "characters/player/player_reload_left_04.png",
+    "characters/player/player_reload_left_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "reload",
+   "frame_duration_ms": 150,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot reload",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_reload_right.png",
+   "frame_files": [
+    "characters/player/player_reload_right_00.png",
+    "characters/player/player_reload_right_01.png",
+    "characters/player/player_reload_right_02.png",
+    "characters/player/player_reload_right_03.png",
+    "characters/player/player_reload_right_04.png",
+    "characters/player/player_reload_right_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "reload",
+   "frame_duration_ms": 150,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot reload",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_death_down.png",
+   "frame_files": [
+    "characters/player/player_death_down_00.png",
+    "characters/player/player_death_down_01.png",
+    "characters/player/player_death_down_02.png",
+    "characters/player/player_death_down_03.png",
+    "characters/player/player_death_down_04.png",
+    "characters/player/player_death_down_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_death_up.png",
+   "frame_files": [
+    "characters/player/player_death_up_00.png",
+    "characters/player/player_death_up_01.png",
+    "characters/player/player_death_up_02.png",
+    "characters/player/player_death_up_03.png",
+    "characters/player/player_death_up_04.png",
+    "characters/player/player_death_up_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_death_left.png",
+   "frame_files": [
+    "characters/player/player_death_left_00.png",
+    "characters/player/player_death_left_01.png",
+    "characters/player/player_death_left_02.png",
+    "characters/player/player_death_left_03.png",
+    "characters/player/player_death_left_04.png",
+    "characters/player/player_death_left_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "player",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/player_death_right.png",
+   "frame_files": [
+    "characters/player/player_death_right_00.png",
+    "characters/player/player_death_right_01.png",
+    "characters/player/player_death_right_02.png",
+    "characters/player/player_death_right_03.png",
+    "characters/player/player_death_right_04.png",
+    "characters/player/player_death_right_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "player one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_idle_down.png",
+   "frame_files": [
+    "characters/walker/walker_idle_down_00.png",
+    "characters/walker/walker_idle_down_01.png",
+    "characters/walker/walker_idle_down_02.png",
+    "characters/walker/walker_idle_down_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_idle_up.png",
+   "frame_files": [
+    "characters/walker/walker_idle_up_00.png",
+    "characters/walker/walker_idle_up_01.png",
+    "characters/walker/walker_idle_up_02.png",
+    "characters/walker/walker_idle_up_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_idle_left.png",
+   "frame_files": [
+    "characters/walker/walker_idle_left_00.png",
+    "characters/walker/walker_idle_left_01.png",
+    "characters/walker/walker_idle_left_02.png",
+    "characters/walker/walker_idle_left_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_idle_right.png",
+   "frame_files": [
+    "characters/walker/walker_idle_right_00.png",
+    "characters/walker/walker_idle_right_01.png",
+    "characters/walker/walker_idle_right_02.png",
+    "characters/walker/walker_idle_right_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_walk_down.png",
+   "frame_files": [
+    "characters/walker/walker_walk_down_00.png",
+    "characters/walker/walker_walk_down_01.png",
+    "characters/walker/walker_walk_down_02.png",
+    "characters/walker/walker_walk_down_03.png",
+    "characters/walker/walker_walk_down_04.png",
+    "characters/walker/walker_walk_down_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker loop while moving",
+   "loop": true
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_walk_up.png",
+   "frame_files": [
+    "characters/walker/walker_walk_up_00.png",
+    "characters/walker/walker_walk_up_01.png",
+    "characters/walker/walker_walk_up_02.png",
+    "characters/walker/walker_walk_up_03.png",
+    "characters/walker/walker_walk_up_04.png",
+    "characters/walker/walker_walk_up_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker loop while moving",
+   "loop": true
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_walk_left.png",
+   "frame_files": [
+    "characters/walker/walker_walk_left_00.png",
+    "characters/walker/walker_walk_left_01.png",
+    "characters/walker/walker_walk_left_02.png",
+    "characters/walker/walker_walk_left_03.png",
+    "characters/walker/walker_walk_left_04.png",
+    "characters/walker/walker_walk_left_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker loop while moving",
+   "loop": true
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_walk_right.png",
+   "frame_files": [
+    "characters/walker/walker_walk_right_00.png",
+    "characters/walker/walker_walk_right_01.png",
+    "characters/walker/walker_walk_right_02.png",
+    "characters/walker/walker_walk_right_03.png",
+    "characters/walker/walker_walk_right_04.png",
+    "characters/walker/walker_walk_right_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker loop while moving",
+   "loop": true
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_attack_down.png",
+   "frame_files": [
+    "characters/walker/walker_attack_down_00.png",
+    "characters/walker/walker_attack_down_01.png",
+    "characters/walker/walker_attack_down_02.png",
+    "characters/walker/walker_attack_down_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_attack_up.png",
+   "frame_files": [
+    "characters/walker/walker_attack_up_00.png",
+    "characters/walker/walker_attack_up_01.png",
+    "characters/walker/walker_attack_up_02.png",
+    "characters/walker/walker_attack_up_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_attack_left.png",
+   "frame_files": [
+    "characters/walker/walker_attack_left_00.png",
+    "characters/walker/walker_attack_left_01.png",
+    "characters/walker/walker_attack_left_02.png",
+    "characters/walker/walker_attack_left_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_attack_right.png",
+   "frame_files": [
+    "characters/walker/walker_attack_right_00.png",
+    "characters/walker/walker_attack_right_01.png",
+    "characters/walker/walker_attack_right_02.png",
+    "characters/walker/walker_attack_right_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_hit_down.png",
+   "frame_files": [
+    "characters/walker/walker_hit_down_00.png",
+    "characters/walker/walker_hit_down_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_hit_up.png",
+   "frame_files": [
+    "characters/walker/walker_hit_up_00.png",
+    "characters/walker/walker_hit_up_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_hit_left.png",
+   "frame_files": [
+    "characters/walker/walker_hit_left_00.png",
+    "characters/walker/walker_hit_left_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_hit_right.png",
+   "frame_files": [
+    "characters/walker/walker_hit_right_00.png",
+    "characters/walker/walker_hit_right_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_death_down.png",
+   "frame_files": [
+    "characters/walker/walker_death_down_00.png",
+    "characters/walker/walker_death_down_01.png",
+    "characters/walker/walker_death_down_02.png",
+    "characters/walker/walker_death_down_03.png",
+    "characters/walker/walker_death_down_04.png",
+    "characters/walker/walker_death_down_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_death_up.png",
+   "frame_files": [
+    "characters/walker/walker_death_up_00.png",
+    "characters/walker/walker_death_up_01.png",
+    "characters/walker/walker_death_up_02.png",
+    "characters/walker/walker_death_up_03.png",
+    "characters/walker/walker_death_up_04.png",
+    "characters/walker/walker_death_up_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_death_left.png",
+   "frame_files": [
+    "characters/walker/walker_death_left_00.png",
+    "characters/walker/walker_death_left_01.png",
+    "characters/walker/walker_death_left_02.png",
+    "characters/walker/walker_death_left_03.png",
+    "characters/walker/walker_death_left_04.png",
+    "characters/walker/walker_death_left_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "walker",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/walker_death_right.png",
+   "frame_files": [
+    "characters/walker/walker_death_right_00.png",
+    "characters/walker/walker_death_right_01.png",
+    "characters/walker/walker_death_right_02.png",
+    "characters/walker/walker_death_right_03.png",
+    "characters/walker/walker_death_right_04.png",
+    "characters/walker/walker_death_right_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "walker one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_idle_down.png",
+   "frame_files": [
+    "characters/runner/runner_idle_down_00.png",
+    "characters/runner/runner_idle_down_01.png",
+    "characters/runner/runner_idle_down_02.png",
+    "characters/runner/runner_idle_down_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_idle_up.png",
+   "frame_files": [
+    "characters/runner/runner_idle_up_00.png",
+    "characters/runner/runner_idle_up_01.png",
+    "characters/runner/runner_idle_up_02.png",
+    "characters/runner/runner_idle_up_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_idle_left.png",
+   "frame_files": [
+    "characters/runner/runner_idle_left_00.png",
+    "characters/runner/runner_idle_left_01.png",
+    "characters/runner/runner_idle_left_02.png",
+    "characters/runner/runner_idle_left_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_idle_right.png",
+   "frame_files": [
+    "characters/runner/runner_idle_right_00.png",
+    "characters/runner/runner_idle_right_01.png",
+    "characters/runner/runner_idle_right_02.png",
+    "characters/runner/runner_idle_right_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_run_down.png",
+   "frame_files": [
+    "characters/runner/runner_run_down_00.png",
+    "characters/runner/runner_run_down_01.png",
+    "characters/runner/runner_run_down_02.png",
+    "characters/runner/runner_run_down_03.png",
+    "characters/runner/runner_run_down_04.png",
+    "characters/runner/runner_run_down_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "run",
+   "frame_duration_ms": 90,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner loop while chasing",
+   "loop": true
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_run_up.png",
+   "frame_files": [
+    "characters/runner/runner_run_up_00.png",
+    "characters/runner/runner_run_up_01.png",
+    "characters/runner/runner_run_up_02.png",
+    "characters/runner/runner_run_up_03.png",
+    "characters/runner/runner_run_up_04.png",
+    "characters/runner/runner_run_up_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "run",
+   "frame_duration_ms": 90,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner loop while chasing",
+   "loop": true
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_run_left.png",
+   "frame_files": [
+    "characters/runner/runner_run_left_00.png",
+    "characters/runner/runner_run_left_01.png",
+    "characters/runner/runner_run_left_02.png",
+    "characters/runner/runner_run_left_03.png",
+    "characters/runner/runner_run_left_04.png",
+    "characters/runner/runner_run_left_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "run",
+   "frame_duration_ms": 90,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner loop while chasing",
+   "loop": true
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_run_right.png",
+   "frame_files": [
+    "characters/runner/runner_run_right_00.png",
+    "characters/runner/runner_run_right_01.png",
+    "characters/runner/runner_run_right_02.png",
+    "characters/runner/runner_run_right_03.png",
+    "characters/runner/runner_run_right_04.png",
+    "characters/runner/runner_run_right_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "run",
+   "frame_duration_ms": 90,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner loop while chasing",
+   "loop": true
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_attack_down.png",
+   "frame_files": [
+    "characters/runner/runner_attack_down_00.png",
+    "characters/runner/runner_attack_down_01.png",
+    "characters/runner/runner_attack_down_02.png",
+    "characters/runner/runner_attack_down_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_attack_up.png",
+   "frame_files": [
+    "characters/runner/runner_attack_up_00.png",
+    "characters/runner/runner_attack_up_01.png",
+    "characters/runner/runner_attack_up_02.png",
+    "characters/runner/runner_attack_up_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_attack_left.png",
+   "frame_files": [
+    "characters/runner/runner_attack_left_00.png",
+    "characters/runner/runner_attack_left_01.png",
+    "characters/runner/runner_attack_left_02.png",
+    "characters/runner/runner_attack_left_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_attack_right.png",
+   "frame_files": [
+    "characters/runner/runner_attack_right_00.png",
+    "characters/runner/runner_attack_right_01.png",
+    "characters/runner/runner_attack_right_02.png",
+    "characters/runner/runner_attack_right_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_hit_down.png",
+   "frame_files": [
+    "characters/runner/runner_hit_down_00.png",
+    "characters/runner/runner_hit_down_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_hit_up.png",
+   "frame_files": [
+    "characters/runner/runner_hit_up_00.png",
+    "characters/runner/runner_hit_up_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_hit_left.png",
+   "frame_files": [
+    "characters/runner/runner_hit_left_00.png",
+    "characters/runner/runner_hit_left_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_hit_right.png",
+   "frame_files": [
+    "characters/runner/runner_hit_right_00.png",
+    "characters/runner/runner_hit_right_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_death_down.png",
+   "frame_files": [
+    "characters/runner/runner_death_down_00.png",
+    "characters/runner/runner_death_down_01.png",
+    "characters/runner/runner_death_down_02.png",
+    "characters/runner/runner_death_down_03.png",
+    "characters/runner/runner_death_down_04.png",
+    "characters/runner/runner_death_down_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_death_up.png",
+   "frame_files": [
+    "characters/runner/runner_death_up_00.png",
+    "characters/runner/runner_death_up_01.png",
+    "characters/runner/runner_death_up_02.png",
+    "characters/runner/runner_death_up_03.png",
+    "characters/runner/runner_death_up_04.png",
+    "characters/runner/runner_death_up_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_death_left.png",
+   "frame_files": [
+    "characters/runner/runner_death_left_00.png",
+    "characters/runner/runner_death_left_01.png",
+    "characters/runner/runner_death_left_02.png",
+    "characters/runner/runner_death_left_03.png",
+    "characters/runner/runner_death_left_04.png",
+    "characters/runner/runner_death_left_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "runner",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/runner_death_right.png",
+   "frame_files": [
+    "characters/runner/runner_death_right_00.png",
+    "characters/runner/runner_death_right_01.png",
+    "characters/runner/runner_death_right_02.png",
+    "characters/runner/runner_death_right_03.png",
+    "characters/runner/runner_death_right_04.png",
+    "characters/runner/runner_death_right_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "runner one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_idle_down.png",
+   "frame_files": [
+    "characters/brute/brute_idle_down_00.png",
+    "characters/brute/brute_idle_down_01.png",
+    "characters/brute/brute_idle_down_02.png",
+    "characters/brute/brute_idle_down_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_idle_up.png",
+   "frame_files": [
+    "characters/brute/brute_idle_up_00.png",
+    "characters/brute/brute_idle_up_01.png",
+    "characters/brute/brute_idle_up_02.png",
+    "characters/brute/brute_idle_up_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_idle_left.png",
+   "frame_files": [
+    "characters/brute/brute_idle_left_00.png",
+    "characters/brute/brute_idle_left_01.png",
+    "characters/brute/brute_idle_left_02.png",
+    "characters/brute/brute_idle_left_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_idle_right.png",
+   "frame_files": [
+    "characters/brute/brute_idle_right_00.png",
+    "characters/brute/brute_idle_right_01.png",
+    "characters/brute/brute_idle_right_02.png",
+    "characters/brute/brute_idle_right_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "idle",
+   "frame_duration_ms": 200,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute loop when stationary",
+   "loop": true
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_walk_down.png",
+   "frame_files": [
+    "characters/brute/brute_walk_down_00.png",
+    "characters/brute/brute_walk_down_01.png",
+    "characters/brute/brute_walk_down_02.png",
+    "characters/brute/brute_walk_down_03.png",
+    "characters/brute/brute_walk_down_04.png",
+    "characters/brute/brute_walk_down_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute loop while moving",
+   "loop": true
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_walk_up.png",
+   "frame_files": [
+    "characters/brute/brute_walk_up_00.png",
+    "characters/brute/brute_walk_up_01.png",
+    "characters/brute/brute_walk_up_02.png",
+    "characters/brute/brute_walk_up_03.png",
+    "characters/brute/brute_walk_up_04.png",
+    "characters/brute/brute_walk_up_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute loop while moving",
+   "loop": true
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_walk_left.png",
+   "frame_files": [
+    "characters/brute/brute_walk_left_00.png",
+    "characters/brute/brute_walk_left_01.png",
+    "characters/brute/brute_walk_left_02.png",
+    "characters/brute/brute_walk_left_03.png",
+    "characters/brute/brute_walk_left_04.png",
+    "characters/brute/brute_walk_left_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute loop while moving",
+   "loop": true
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_walk_right.png",
+   "frame_files": [
+    "characters/brute/brute_walk_right_00.png",
+    "characters/brute/brute_walk_right_01.png",
+    "characters/brute/brute_walk_right_02.png",
+    "characters/brute/brute_walk_right_03.png",
+    "characters/brute/brute_walk_right_04.png",
+    "characters/brute/brute_walk_right_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "walk",
+   "frame_duration_ms": 130,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute loop while moving",
+   "loop": true
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_attack_down.png",
+   "frame_files": [
+    "characters/brute/brute_attack_down_00.png",
+    "characters/brute/brute_attack_down_01.png",
+    "characters/brute/brute_attack_down_02.png",
+    "characters/brute/brute_attack_down_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_attack_up.png",
+   "frame_files": [
+    "characters/brute/brute_attack_up_00.png",
+    "characters/brute/brute_attack_up_01.png",
+    "characters/brute/brute_attack_up_02.png",
+    "characters/brute/brute_attack_up_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_attack_left.png",
+   "frame_files": [
+    "characters/brute/brute_attack_left_00.png",
+    "characters/brute/brute_attack_left_01.png",
+    "characters/brute/brute_attack_left_02.png",
+    "characters/brute/brute_attack_left_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_attack_right.png",
+   "frame_files": [
+    "characters/brute/brute_attack_right_00.png",
+    "characters/brute/brute_attack_right_01.png",
+    "characters/brute/brute_attack_right_02.png",
+    "characters/brute/brute_attack_right_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "attack",
+   "frame_duration_ms": 110,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot melee attack",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_hit_down.png",
+   "frame_files": [
+    "characters/brute/brute_hit_down_00.png",
+    "characters/brute/brute_hit_down_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_hit_up.png",
+   "frame_files": [
+    "characters/brute/brute_hit_up_00.png",
+    "characters/brute/brute_hit_up_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_hit_left.png",
+   "frame_files": [
+    "characters/brute/brute_hit_left_00.png",
+    "characters/brute/brute_hit_left_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_hit_right.png",
+   "frame_files": [
+    "characters/brute/brute_hit_right_00.png",
+    "characters/brute/brute_hit_right_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "hit",
+   "frame_duration_ms": 100,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot hit reaction",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_death_down.png",
+   "frame_files": [
+    "characters/brute/brute_death_down_00.png",
+    "characters/brute/brute_death_down_01.png",
+    "characters/brute/brute_death_down_02.png",
+    "characters/brute/brute_death_down_03.png",
+    "characters/brute/brute_death_down_04.png",
+    "characters/brute/brute_death_down_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "down",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_death_up.png",
+   "frame_files": [
+    "characters/brute/brute_death_up_00.png",
+    "characters/brute/brute_death_up_01.png",
+    "characters/brute/brute_death_up_02.png",
+    "characters/brute/brute_death_up_03.png",
+    "characters/brute/brute_death_up_04.png",
+    "characters/brute/brute_death_up_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "up",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_death_left.png",
+   "frame_files": [
+    "characters/brute/brute_death_left_00.png",
+    "characters/brute/brute_death_left_01.png",
+    "characters/brute/brute_death_left_02.png",
+    "characters/brute/brute_death_left_03.png",
+    "characters/brute/brute_death_left_04.png",
+    "characters/brute/brute_death_left_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "left",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "brute",
+   "category": "characters",
+   "kind": "animation",
+   "file": "spritesheets/characters/brute_death_right.png",
+   "frame_files": [
+    "characters/brute/brute_death_right_00.png",
+    "characters/brute/brute_death_right_01.png",
+    "characters/brute/brute_death_right_02.png",
+    "characters/brute/brute_death_right_03.png",
+    "characters/brute/brute_death_right_04.png",
+    "characters/brute/brute_death_right_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "death",
+   "frame_duration_ms": 130,
+   "direction": "right",
+   "pivot": [
+    16,
+    27
+   ],
+   "use": "brute one-shot death, hold last frame",
+   "loop": false
+  },
+  {
+   "name": "scrap_collector",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/scrap_collector/scrap_collector_normal.png",
+   "frame_files": [
+    "buildings/scrap_collector/scrap_collector_normal.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Mines/collects scrap from nearby deposits",
+   "state": "normal"
+  },
+  {
+   "name": "scrap_collector",
+   "category": "buildings",
+   "kind": "animation",
+   "file": "spritesheets/buildings/scrap_collector_active.png",
+   "frame_files": [
+    "buildings/scrap_collector/scrap_collector_active_00.png",
+    "buildings/scrap_collector/scrap_collector_active_01.png",
+    "buildings/scrap_collector/scrap_collector_active_02.png",
+    "buildings/scrap_collector/scrap_collector_active_03.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 4,
+   "animation": "active",
+   "frame_duration_ms": 150,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Mines/collects scrap from nearby deposits (working animation)",
+   "loop": true
+  },
+  {
+   "name": "scrap_collector",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/scrap_collector/scrap_collector_damaged.png",
+   "frame_files": [
+    "buildings/scrap_collector/scrap_collector_damaged.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Mines/collects scrap from nearby deposits (damaged)",
+   "state": "damaged"
+  },
+  {
+   "name": "scrap_collector",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/scrap_collector/scrap_collector_destroyed.png",
+   "frame_files": [
+    "buildings/scrap_collector/scrap_collector_destroyed.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Mines/collects scrap from nearby deposits (destroyed)",
+   "state": "destroyed"
+  },
+  {
+   "name": "generator",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/generator/generator_normal.png",
+   "frame_files": [
+    "buildings/generator/generator_normal.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Produces power",
+   "state": "normal"
+  },
+  {
+   "name": "generator",
+   "category": "buildings",
+   "kind": "animation",
+   "file": "spritesheets/buildings/generator_active.png",
+   "frame_files": [
+    "buildings/generator/generator_active_00.png",
+    "buildings/generator/generator_active_01.png",
+    "buildings/generator/generator_active_02.png",
+    "buildings/generator/generator_active_03.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 4,
+   "animation": "active",
+   "frame_duration_ms": 150,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Produces power (working animation)",
+   "loop": true
+  },
+  {
+   "name": "generator",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/generator/generator_damaged.png",
+   "frame_files": [
+    "buildings/generator/generator_damaged.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Produces power (damaged)",
+   "state": "damaged"
+  },
+  {
+   "name": "generator",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/generator/generator_destroyed.png",
+   "frame_files": [
+    "buildings/generator/generator_destroyed.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Produces power (destroyed)",
+   "state": "destroyed"
+  },
+  {
+   "name": "ammo_factory",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/ammo_factory/ammo_factory_normal.png",
+   "frame_files": [
+    "buildings/ammo_factory/ammo_factory_normal.png"
+   ],
+   "frame_width": 96,
+   "frame_height": 96,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    48,
+    48
+   ],
+   "use": "Converts metal to ammunition",
+   "state": "normal"
+  },
+  {
+   "name": "ammo_factory",
+   "category": "buildings",
+   "kind": "animation",
+   "file": "spritesheets/buildings/ammo_factory_active.png",
+   "frame_files": [
+    "buildings/ammo_factory/ammo_factory_active_00.png",
+    "buildings/ammo_factory/ammo_factory_active_01.png",
+    "buildings/ammo_factory/ammo_factory_active_02.png",
+    "buildings/ammo_factory/ammo_factory_active_03.png"
+   ],
+   "frame_width": 96,
+   "frame_height": 96,
+   "frames": 4,
+   "animation": "active",
+   "frame_duration_ms": 150,
+   "direction": "none",
+   "pivot": [
+    48,
+    48
+   ],
+   "use": "Converts metal to ammunition (working animation)",
+   "loop": true
+  },
+  {
+   "name": "ammo_factory",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/ammo_factory/ammo_factory_damaged.png",
+   "frame_files": [
+    "buildings/ammo_factory/ammo_factory_damaged.png"
+   ],
+   "frame_width": 96,
+   "frame_height": 96,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    48,
+    48
+   ],
+   "use": "Converts metal to ammunition (damaged)",
+   "state": "damaged"
+  },
+  {
+   "name": "ammo_factory",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/ammo_factory/ammo_factory_destroyed.png",
+   "frame_files": [
+    "buildings/ammo_factory/ammo_factory_destroyed.png"
+   ],
+   "frame_width": 96,
+   "frame_height": 96,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    48,
+    48
+   ],
+   "use": "Converts metal to ammunition (destroyed)",
+   "state": "destroyed"
+  },
+  {
+   "name": "repair_station",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/repair_station/repair_station_normal.png",
+   "frame_files": [
+    "buildings/repair_station/repair_station_normal.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Repairs nearby structures",
+   "state": "normal"
+  },
+  {
+   "name": "repair_station",
+   "category": "buildings",
+   "kind": "animation",
+   "file": "spritesheets/buildings/repair_station_active.png",
+   "frame_files": [
+    "buildings/repair_station/repair_station_active_00.png",
+    "buildings/repair_station/repair_station_active_01.png",
+    "buildings/repair_station/repair_station_active_02.png",
+    "buildings/repair_station/repair_station_active_03.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 4,
+   "animation": "active",
+   "frame_duration_ms": 150,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Repairs nearby structures (working animation)",
+   "loop": true
+  },
+  {
+   "name": "repair_station",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/repair_station/repair_station_damaged.png",
+   "frame_files": [
+    "buildings/repair_station/repair_station_damaged.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Repairs nearby structures (damaged)",
+   "state": "damaged"
+  },
+  {
+   "name": "repair_station",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/repair_station/repair_station_destroyed.png",
+   "frame_files": [
+    "buildings/repair_station/repair_station_destroyed.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Repairs nearby structures (destroyed)",
+   "state": "destroyed"
+  },
+  {
+   "name": "mine",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/mine/mine_normal.png",
+   "frame_files": [
+    "buildings/mine/mine_normal.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Proximity trap",
+   "state": "normal"
+  },
+  {
+   "name": "mine",
+   "category": "buildings",
+   "kind": "animation",
+   "file": "spritesheets/buildings/mine_active.png",
+   "frame_files": [
+    "buildings/mine/mine_active_00.png",
+    "buildings/mine/mine_active_01.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 2,
+   "animation": "active",
+   "frame_duration_ms": 500,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Proximity trap (working animation)",
+   "loop": true
+  },
+  {
+   "name": "mine",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/mine/mine_triggered.png",
+   "frame_files": [
+    "buildings/mine/mine_triggered.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Mine after detonation (crater)",
+   "state": "destroyed"
+  },
+  {
+   "name": "wall",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/wall/wall_normal.png",
+   "frame_files": [
+    "buildings/wall/wall_normal.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Defensive wall block",
+   "state": "normal"
+  },
+  {
+   "name": "wall",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/wall/wall_damaged.png",
+   "frame_files": [
+    "buildings/wall/wall_damaged.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Defensive wall block (damaged)",
+   "state": "damaged"
+  },
+  {
+   "name": "wall",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/wall/wall_critical.png",
+   "frame_files": [
+    "buildings/wall/wall_critical.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Defensive wall block (heavily damaged)",
+   "state": "critical"
+  },
+  {
+   "name": "wall",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/wall/wall_destroyed.png",
+   "frame_files": [
+    "buildings/wall/wall_destroyed.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Defensive wall block (rubble)",
+   "state": "destroyed"
+  },
+  {
+   "name": "machine_gun_turret",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/machine_gun_turret/machine_gun_turret_base.png",
+   "frame_files": [
+    "buildings/machine_gun_turret/machine_gun_turret_base.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Machine gun turret static base (does not rotate)",
+   "state": "normal",
+   "part": "base"
+  },
+  {
+   "name": "machine_gun_turret",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/machine_gun_turret/machine_gun_turret_barrel.png",
+   "frame_files": [
+    "buildings/machine_gun_turret/machine_gun_turret_barrel.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Machine gun turret rotating head+barrel, faces EAST (+X); rotate around pivot",
+   "state": "normal",
+   "part": "barrel",
+   "faces": "east"
+  },
+  {
+   "name": "machine_gun_turret",
+   "category": "buildings",
+   "kind": "animation",
+   "file": "spritesheets/buildings/machine_gun_turret_recoil.png",
+   "frame_files": [
+    "buildings/machine_gun_turret/machine_gun_turret_recoil_00.png",
+    "buildings/machine_gun_turret/machine_gun_turret_recoil_01.png",
+    "buildings/machine_gun_turret/machine_gun_turret_recoil_02.png",
+    "buildings/machine_gun_turret/machine_gun_turret_recoil_03.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 4,
+   "animation": "recoil",
+   "frame_duration_ms": 50,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Machine gun barrel recoil one-shot (faces east, rotate in Godot)",
+   "loop": false
+  },
+  {
+   "name": "machine_gun_turret",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/machine_gun_turret/machine_gun_turret_base_damaged.png",
+   "frame_files": [
+    "buildings/machine_gun_turret/machine_gun_turret_base_damaged.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Machine gun turret damaged base",
+   "state": "damaged",
+   "part": "base"
+  },
+  {
+   "name": "machine_gun_turret",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/machine_gun_turret/machine_gun_turret_barrel_damaged.png",
+   "frame_files": [
+    "buildings/machine_gun_turret/machine_gun_turret_barrel_damaged.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Machine gun turret damaged barrel",
+   "state": "damaged",
+   "part": "barrel"
+  },
+  {
+   "name": "machine_gun_turret",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/machine_gun_turret/machine_gun_turret_destroyed.png",
+   "frame_files": [
+    "buildings/machine_gun_turret/machine_gun_turret_destroyed.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Machine gun turret wreck (hide barrel)",
+   "state": "destroyed",
+   "part": "base"
+  },
+  {
+   "name": "cannon_turret",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/cannon_turret/cannon_turret_base.png",
+   "frame_files": [
+    "buildings/cannon_turret/cannon_turret_base.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Cannon turret static base (does not rotate)",
+   "state": "normal",
+   "part": "base"
+  },
+  {
+   "name": "cannon_turret",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/cannon_turret/cannon_turret_barrel.png",
+   "frame_files": [
+    "buildings/cannon_turret/cannon_turret_barrel.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Cannon turret rotating head+barrel, faces EAST (+X); rotate around pivot",
+   "state": "normal",
+   "part": "barrel",
+   "faces": "east"
+  },
+  {
+   "name": "cannon_turret",
+   "category": "buildings",
+   "kind": "animation",
+   "file": "spritesheets/buildings/cannon_turret_recoil.png",
+   "frame_files": [
+    "buildings/cannon_turret/cannon_turret_recoil_00.png",
+    "buildings/cannon_turret/cannon_turret_recoil_01.png",
+    "buildings/cannon_turret/cannon_turret_recoil_02.png",
+    "buildings/cannon_turret/cannon_turret_recoil_03.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 4,
+   "animation": "recoil",
+   "frame_duration_ms": 50,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Cannon barrel recoil one-shot (faces east, rotate in Godot)",
+   "loop": false
+  },
+  {
+   "name": "cannon_turret",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/cannon_turret/cannon_turret_base_damaged.png",
+   "frame_files": [
+    "buildings/cannon_turret/cannon_turret_base_damaged.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Cannon turret damaged base",
+   "state": "damaged",
+   "part": "base"
+  },
+  {
+   "name": "cannon_turret",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/cannon_turret/cannon_turret_barrel_damaged.png",
+   "frame_files": [
+    "buildings/cannon_turret/cannon_turret_barrel_damaged.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Cannon turret damaged barrel",
+   "state": "damaged",
+   "part": "barrel"
+  },
+  {
+   "name": "cannon_turret",
+   "category": "buildings",
+   "kind": "static",
+   "file": "buildings/cannon_turret/cannon_turret_destroyed.png",
+   "frame_files": [
+    "buildings/cannon_turret/cannon_turret_destroyed.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Cannon turret wreck (hide barrel)",
+   "state": "destroyed",
+   "part": "base"
+  },
+  {
+   "name": "grass_0",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/grass_0.png",
+   "frame_files": [
+    "environment/terrain/grass_0.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Ground tile: grass (seamless)",
+   "tileable": true
+  },
+  {
+   "name": "grass_1",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/grass_1.png",
+   "frame_files": [
+    "environment/terrain/grass_1.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Ground tile: grass (seamless)",
+   "tileable": true
+  },
+  {
+   "name": "grass_2",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/grass_2.png",
+   "frame_files": [
+    "environment/terrain/grass_2.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Ground tile: grass (seamless)",
+   "tileable": true
+  },
+  {
+   "name": "dirt_0",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/dirt_0.png",
+   "frame_files": [
+    "environment/terrain/dirt_0.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Ground tile: dirt (seamless)",
+   "tileable": true
+  },
+  {
+   "name": "dirt_1",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/dirt_1.png",
+   "frame_files": [
+    "environment/terrain/dirt_1.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Ground tile: dirt (seamless)",
+   "tileable": true
+  },
+  {
+   "name": "concrete_0",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/concrete_0.png",
+   "frame_files": [
+    "environment/terrain/concrete_0.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Ground tile: concrete (seamless)",
+   "tileable": true
+  },
+  {
+   "name": "concrete_1",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/concrete_1.png",
+   "frame_files": [
+    "environment/terrain/concrete_1.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Ground tile: concrete (seamless)",
+   "tileable": true
+  },
+  {
+   "name": "concrete_slab",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/concrete_slab.png",
+   "frame_files": [
+    "environment/terrain/concrete_slab.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Concrete with slab joints (joints are intentional on tile edges)",
+   "tileable": true
+  },
+  {
+   "name": "asphalt",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/asphalt.png",
+   "frame_files": [
+    "environment/terrain/asphalt.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Ground tile: asphalt (seamless)",
+   "tileable": true
+  },
+  {
+   "name": "cracked_concrete",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/cracked_concrete.png",
+   "frame_files": [
+    "environment/terrain/cracked_concrete.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Ground tile: cracked concrete",
+   "tileable": true
+  },
+  {
+   "name": "industrial_floor_0",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/industrial_floor_0.png",
+   "frame_files": [
+    "environment/terrain/industrial_floor_0.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Diamond-plate industrial floor",
+   "tileable": true
+  },
+  {
+   "name": "industrial_floor_1",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/industrial_floor_1.png",
+   "frame_files": [
+    "environment/terrain/industrial_floor_1.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Diamond-plate industrial floor, rusty",
+   "tileable": true
+  },
+  {
+   "name": "industrial_grate",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/industrial_grate.png",
+   "frame_files": [
+    "environment/terrain/industrial_grate.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Drain/grate floor",
+   "tileable": true
+  },
+  {
+   "name": "metal_floor_0",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/metal_floor_0.png",
+   "frame_files": [
+    "environment/terrain/metal_floor_0.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Metal panel floor",
+   "tileable": true
+  },
+  {
+   "name": "metal_floor_1",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/metal_floor_1.png",
+   "frame_files": [
+    "environment/terrain/metal_floor_1.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Metal panel floor, rusty",
+   "tileable": true
+  },
+  {
+   "name": "rubble",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/terrain/rubble.png",
+   "frame_files": [
+    "environment/terrain/rubble.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Rubble on concrete",
+   "tileable": true
+  },
+  {
+   "name": "road_center_h",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/roads/road_center_h.png",
+   "frame_files": [
+    "environment/roads/road_center_h.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Road marking: center_h",
+   "tileable": true
+  },
+  {
+   "name": "road_center_v",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/roads/road_center_v.png",
+   "frame_files": [
+    "environment/roads/road_center_v.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Road marking: center_v",
+   "tileable": true
+  },
+  {
+   "name": "road_edge_h",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/roads/road_edge_h.png",
+   "frame_files": [
+    "environment/roads/road_edge_h.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Road marking: edge_h",
+   "tileable": true
+  },
+  {
+   "name": "road_edge_v",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/roads/road_edge_v.png",
+   "frame_files": [
+    "environment/roads/road_edge_v.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Road marking: edge_v",
+   "tileable": true
+  },
+  {
+   "name": "road_crosswalk",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/roads/road_crosswalk.png",
+   "frame_files": [
+    "environment/roads/road_crosswalk.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Road marking: crosswalk",
+   "tileable": true
+  },
+  {
+   "name": "road_stop",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/roads/road_stop.png",
+   "frame_files": [
+    "environment/roads/road_stop.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Road marking: stop",
+   "tileable": true
+  },
+  {
+   "name": "road_damaged_0",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/roads/road_damaged_0.png",
+   "frame_files": [
+    "environment/roads/road_damaged_0.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Damaged road with pothole",
+   "tileable": false
+  },
+  {
+   "name": "road_damaged_1",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/roads/road_damaged_1.png",
+   "frame_files": [
+    "environment/roads/road_damaged_1.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Damaged road with centre line remnant",
+   "tileable": false
+  },
+  {
+   "name": "bush_0",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/vegetation/bush_0.png",
+   "frame_files": [
+    "environment/vegetation/bush_0.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Overlay: bush",
+   "tileable": false
+  },
+  {
+   "name": "bush_1",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/vegetation/bush_1.png",
+   "frame_files": [
+    "environment/vegetation/bush_1.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Overlay: berry bush",
+   "tileable": false
+  },
+  {
+   "name": "bush_dead",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/vegetation/bush_dead.png",
+   "frame_files": [
+    "environment/vegetation/bush_dead.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Overlay: dead bush",
+   "tileable": false
+  },
+  {
+   "name": "grass_tuft_tall",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/vegetation/grass_tuft_tall.png",
+   "frame_files": [
+    "environment/vegetation/grass_tuft_tall.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Overlay: tall grass",
+   "tileable": false
+  },
+  {
+   "name": "grass_tuft_short",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/vegetation/grass_tuft_short.png",
+   "frame_files": [
+    "environment/vegetation/grass_tuft_short.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Overlay: short grass",
+   "tileable": false
+  },
+  {
+   "name": "weeds",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/vegetation/weeds.png",
+   "frame_files": [
+    "environment/vegetation/weeds.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Overlay: weeds",
+   "tileable": false
+  },
+  {
+   "name": "debris_paper",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/debris/debris_paper.png",
+   "frame_files": [
+    "environment/debris/debris_paper.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Overlay: small debris (paper)",
+   "tileable": false
+  },
+  {
+   "name": "debris_scrap",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/debris/debris_scrap.png",
+   "frame_files": [
+    "environment/debris/debris_scrap.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Overlay: small debris (scrap)",
+   "tileable": false
+  },
+  {
+   "name": "debris_rubble",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/debris/debris_rubble.png",
+   "frame_files": [
+    "environment/debris/debris_rubble.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Overlay: small debris (rubble)",
+   "tileable": false
+  },
+  {
+   "name": "debris_glass",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/debris/debris_glass.png",
+   "frame_files": [
+    "environment/debris/debris_glass.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Overlay: small debris (glass)",
+   "tileable": false
+  },
+  {
+   "name": "debris_tire",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/debris/debris_tire.png",
+   "frame_files": [
+    "environment/debris/debris_tire.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Overlay: small debris (tire)",
+   "tileable": false
+  },
+  {
+   "name": "debris_planks",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/debris/debris_planks.png",
+   "frame_files": [
+    "environment/debris/debris_planks.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Overlay: small debris (planks)",
+   "tileable": false
+  },
+  {
+   "name": "stain_oil",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/debris/stain_oil.png",
+   "frame_files": [
+    "environment/debris/stain_oil.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Overlay: oil stain (semi-transparent)",
+   "tileable": false
+  },
+  {
+   "name": "stain_blood",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/debris/stain_blood.png",
+   "frame_files": [
+    "environment/debris/stain_blood.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Overlay: old blood stain (semi-transparent)",
+   "tileable": false
+  },
+  {
+   "name": "barrel_rust",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/barrel_rust.png",
+   "frame_files": [
+    "environment/props/barrel_rust.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Prop: rusty barrel",
+   "tileable": false
+  },
+  {
+   "name": "barrel_green",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/barrel_green.png",
+   "frame_files": [
+    "environment/props/barrel_green.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Prop: military barrel",
+   "tileable": false
+  },
+  {
+   "name": "barrel_toxic",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/barrel_toxic.png",
+   "frame_files": [
+    "environment/props/barrel_toxic.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Prop: toxic barrel",
+   "tileable": false
+  },
+  {
+   "name": "scrap_pile_0",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/scrap_pile_0.png",
+   "frame_files": [
+    "environment/props/scrap_pile_0.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Prop: scrap pile",
+   "tileable": false
+  },
+  {
+   "name": "scrap_pile_1",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/scrap_pile_1.png",
+   "frame_files": [
+    "environment/props/scrap_pile_1.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Prop: scrap pile (large)",
+   "tileable": false
+  },
+  {
+   "name": "sandbags_corner",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/sandbags_corner.png",
+   "frame_files": [
+    "environment/props/sandbags_corner.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Prop: sandbag stack",
+   "tileable": false
+  },
+  {
+   "name": "sandbags_line",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/sandbags_line.png",
+   "frame_files": [
+    "environment/props/sandbags_line.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 12,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    6
+   ],
+   "use": "Prop: sandbag line (horizontal)",
+   "tileable": false
+  },
+  {
+   "name": "concrete_barrier_h",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/concrete_barrier_h.png",
+   "frame_files": [
+    "environment/props/concrete_barrier_h.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 12,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    6
+   ],
+   "use": "Prop: concrete barrier (horizontal)",
+   "tileable": false
+  },
+  {
+   "name": "concrete_barrier_v",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/concrete_barrier_v.png",
+   "frame_files": [
+    "environment/props/concrete_barrier_v.png"
+   ],
+   "frame_width": 12,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    6,
+    16
+   ],
+   "use": "Prop: concrete barrier (vertical)",
+   "tileable": false
+  },
+  {
+   "name": "ruined_machine_0",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/ruined_machine_0.png",
+   "frame_files": [
+    "environment/props/ruined_machine_0.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Prop: ruined machinery",
+   "tileable": false
+  },
+  {
+   "name": "ruined_machine_1",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/ruined_machine_1.png",
+   "frame_files": [
+    "environment/props/ruined_machine_1.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Prop: ruined machinery",
+   "tileable": false
+  },
+  {
+   "name": "streetlight",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/streetlight.png",
+   "frame_files": [
+    "environment/props/streetlight.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Prop: streetlight",
+   "tileable": false
+  },
+  {
+   "name": "fence_h",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/fence_h.png",
+   "frame_files": [
+    "environment/props/fence_h.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 8,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    4
+   ],
+   "use": "Prop: chain-link fence (horizontal)",
+   "tileable": false
+  },
+  {
+   "name": "fence_v",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/fence_v.png",
+   "frame_files": [
+    "environment/props/fence_v.png"
+   ],
+   "frame_width": 8,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    4,
+    16
+   ],
+   "use": "Prop: chain-link fence (vertical)",
+   "tileable": false
+  },
+  {
+   "name": "crate_wood_s",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/crate_wood_s.png",
+   "frame_files": [
+    "environment/props/crate_wood_s.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Prop: wooden crate small",
+   "tileable": false
+  },
+  {
+   "name": "crate_wood_l",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/crate_wood_l.png",
+   "frame_files": [
+    "environment/props/crate_wood_l.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Prop: wooden crate large",
+   "tileable": false
+  },
+  {
+   "name": "military_box_s",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/military_box_s.png",
+   "frame_files": [
+    "environment/props/military_box_s.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Prop: military supply box small",
+   "tileable": false
+  },
+  {
+   "name": "military_box_l",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/military_box_l.png",
+   "frame_files": [
+    "environment/props/military_box_l.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Prop: military supply box large",
+   "tileable": false
+  },
+  {
+   "name": "car_wreck",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/car_wreck.png",
+   "frame_files": [
+    "environment/props/car_wreck.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    16
+   ],
+   "use": "Prop: wrecked car",
+   "tileable": false
+  },
+  {
+   "name": "van_wreck",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/van_wreck.png",
+   "frame_files": [
+    "environment/props/van_wreck.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    16
+   ],
+   "use": "Prop: wrecked van",
+   "tileable": false
+  },
+  {
+   "name": "jeep_burnt",
+   "category": "environment",
+   "kind": "static",
+   "file": "environment/props/jeep_burnt.png",
+   "frame_files": [
+    "environment/props/jeep_burnt.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    16
+   ],
+   "use": "Prop: burnt military jeep",
+   "tileable": false
+  },
+  {
+   "name": "rifle_projectile",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/rifle_projectile_fly.png",
+   "frame_files": [
+    "effects/projectiles/rifle_projectile_fly_00.png",
+    "effects/projectiles/rifle_projectile_fly_01.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 2,
+   "animation": "fly",
+   "frame_duration_ms": 60,
+   "direction": "none",
+   "pivot": [
+    15,
+    8
+   ],
+   "use": "Rifle/MG tracer, faces EAST",
+   "loop": true
+  },
+  {
+   "name": "shotgun_projectile",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/shotgun_projectile_fly.png",
+   "frame_files": [
+    "effects/projectiles/shotgun_projectile_fly_00.png",
+    "effects/projectiles/shotgun_projectile_fly_01.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 2,
+   "animation": "fly",
+   "frame_duration_ms": 60,
+   "direction": "none",
+   "pivot": [
+    12,
+    8
+   ],
+   "use": "Shotgun pellets, faces EAST",
+   "loop": true
+  },
+  {
+   "name": "cannon_projectile",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/cannon_projectile_fly.png",
+   "frame_files": [
+    "effects/projectiles/cannon_projectile_fly_00.png",
+    "effects/projectiles/cannon_projectile_fly_01.png",
+    "effects/projectiles/cannon_projectile_fly_02.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 3,
+   "animation": "fly",
+   "frame_duration_ms": 60,
+   "direction": "none",
+   "pivot": [
+    14,
+    8
+   ],
+   "use": "Cannon shell with trail, faces EAST",
+   "loop": true
+  },
+  {
+   "name": "muzzle_flash_mg",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/muzzle_flash_mg_play.png",
+   "frame_files": [
+    "effects/muzzle_flash/muzzle_flash_mg_play_00.png",
+    "effects/muzzle_flash/muzzle_flash_mg_play_01.png",
+    "effects/muzzle_flash/muzzle_flash_mg_play_02.png",
+    "effects/muzzle_flash/muzzle_flash_mg_play_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "play",
+   "frame_duration_ms": 40,
+   "direction": "none",
+   "pivot": [
+    2,
+    16
+   ],
+   "use": "MG/rifle muzzle flash, faces EAST, origin at left-centre",
+   "loop": false
+  },
+  {
+   "name": "muzzle_flash_cannon",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/muzzle_flash_cannon_play.png",
+   "frame_files": [
+    "effects/muzzle_flash/muzzle_flash_cannon_play_00.png",
+    "effects/muzzle_flash/muzzle_flash_cannon_play_01.png",
+    "effects/muzzle_flash/muzzle_flash_cannon_play_02.png",
+    "effects/muzzle_flash/muzzle_flash_cannon_play_03.png",
+    "effects/muzzle_flash/muzzle_flash_cannon_play_04.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 5,
+   "animation": "play",
+   "frame_duration_ms": 50,
+   "direction": "none",
+   "pivot": [
+    2,
+    16
+   ],
+   "use": "Cannon muzzle flash, faces EAST, origin at left-centre",
+   "loop": false
+  },
+  {
+   "name": "bullet_impact",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/bullet_impact_play.png",
+   "frame_files": [
+    "effects/impacts/bullet_impact_play_00.png",
+    "effects/impacts/bullet_impact_play_01.png",
+    "effects/impacts/bullet_impact_play_02.png",
+    "effects/impacts/bullet_impact_play_03.png",
+    "effects/impacts/bullet_impact_play_04.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 5,
+   "animation": "play",
+   "frame_duration_ms": 50,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Bullet hit on wall/ground",
+   "loop": false
+  },
+  {
+   "name": "blood_impact",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/blood_impact_play.png",
+   "frame_files": [
+    "effects/impacts/blood_impact_play_00.png",
+    "effects/impacts/blood_impact_play_01.png",
+    "effects/impacts/blood_impact_play_02.png",
+    "effects/impacts/blood_impact_play_03.png",
+    "effects/impacts/blood_impact_play_04.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 5,
+   "animation": "play",
+   "frame_duration_ms": 55,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Bullet hit on zombie",
+   "loop": false
+  },
+  {
+   "name": "zombie_death",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/zombie_death_play.png",
+   "frame_files": [
+    "effects/impacts/zombie_death_play_00.png",
+    "effects/impacts/zombie_death_play_01.png",
+    "effects/impacts/zombie_death_play_02.png",
+    "effects/impacts/zombie_death_play_03.png",
+    "effects/impacts/zombie_death_play_04.png",
+    "effects/impacts/zombie_death_play_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "play",
+   "frame_duration_ms": 90,
+   "direction": "none",
+   "pivot": [
+    16,
+    17
+   ],
+   "use": "Zombie death burst, last frame = stain (hold)",
+   "loop": false
+  },
+  {
+   "name": "building_damage",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/building_damage_loop.png",
+   "frame_files": [
+    "effects/impacts/building_damage_loop_00.png",
+    "effects/impacts/building_damage_loop_01.png",
+    "effects/impacts/building_damage_loop_02.png",
+    "effects/impacts/building_damage_loop_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "loop",
+   "frame_duration_ms": 100,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Looping spark/smoke on damaged structure",
+   "loop": true
+  },
+  {
+   "name": "explosion",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/explosion_play.png",
+   "frame_files": [
+    "effects/explosions/explosion_play_00.png",
+    "effects/explosions/explosion_play_01.png",
+    "effects/explosions/explosion_play_02.png",
+    "effects/explosions/explosion_play_03.png",
+    "effects/explosions/explosion_play_04.png",
+    "effects/explosions/explosion_play_05.png",
+    "effects/explosions/explosion_play_06.png",
+    "effects/explosions/explosion_play_07.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 8,
+   "animation": "play",
+   "frame_duration_ms": 70,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Cannon/turret/building explosion",
+   "loop": false
+  },
+  {
+   "name": "mine_explosion",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/mine_explosion_play.png",
+   "frame_files": [
+    "effects/explosions/mine_explosion_play_00.png",
+    "effects/explosions/mine_explosion_play_01.png",
+    "effects/explosions/mine_explosion_play_02.png",
+    "effects/explosions/mine_explosion_play_03.png",
+    "effects/explosions/mine_explosion_play_04.png",
+    "effects/explosions/mine_explosion_play_05.png",
+    "effects/explosions/mine_explosion_play_06.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 7,
+   "animation": "play",
+   "frame_duration_ms": 70,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Mine detonation with dirt plume",
+   "loop": false
+  },
+  {
+   "name": "smoke",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/smoke_play.png",
+   "frame_files": [
+    "effects/smoke/smoke_play_00.png",
+    "effects/smoke/smoke_play_01.png",
+    "effects/smoke/smoke_play_02.png",
+    "effects/smoke/smoke_play_03.png",
+    "effects/smoke/smoke_play_04.png",
+    "effects/smoke/smoke_play_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "play",
+   "frame_duration_ms": 120,
+   "direction": "none",
+   "pivot": [
+    16,
+    28
+   ],
+   "use": "Rising smoke puff (semi-transparent)",
+   "loop": false
+  },
+  {
+   "name": "fire",
+   "category": "effects",
+   "kind": "animation",
+   "file": "spritesheets/effects/fire_loop.png",
+   "frame_files": [
+    "effects/smoke/fire_loop_00.png",
+    "effects/smoke/fire_loop_01.png",
+    "effects/smoke/fire_loop_02.png",
+    "effects/smoke/fire_loop_03.png",
+    "effects/smoke/fire_loop_04.png",
+    "effects/smoke/fire_loop_05.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 6,
+   "animation": "loop",
+   "frame_duration_ms": 90,
+   "direction": "none",
+   "pivot": [
+    16,
+    28
+   ],
+   "use": "Looping flame",
+   "loop": true
+  },
+  {
+   "name": "debris_particle_stone",
+   "category": "effects",
+   "kind": "static",
+   "file": "effects/impacts/debris_particle_stone.png",
+   "frame_files": [
+    "effects/impacts/debris_particle_stone.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Small debris particle for GPUParticles2D/Sprite spawning"
+  },
+  {
+   "name": "debris_particle_shard",
+   "category": "effects",
+   "kind": "static",
+   "file": "effects/impacts/debris_particle_shard.png",
+   "frame_files": [
+    "effects/impacts/debris_particle_shard.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Small debris particle for GPUParticles2D/Sprite spawning"
+  },
+  {
+   "name": "debris_particle_wood",
+   "category": "effects",
+   "kind": "static",
+   "file": "effects/impacts/debris_particle_wood.png",
+   "frame_files": [
+    "effects/impacts/debris_particle_wood.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Small debris particle for GPUParticles2D/Sprite spawning"
+  },
+  {
+   "name": "debris_particle_bolt",
+   "category": "effects",
+   "kind": "static",
+   "file": "effects/impacts/debris_particle_bolt.png",
+   "frame_files": [
+    "effects/impacts/debris_particle_bolt.png"
+   ],
+   "frame_width": 16,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    8,
+    8
+   ],
+   "use": "Small debris particle for GPUParticles2D/Sprite spawning"
+  },
+  {
+   "name": "icon_scrap",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_scrap.png",
+   "frame_files": [
+    "ui/icons/icon_scrap.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: scrap"
+  },
+  {
+   "name": "icon_metal",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_metal.png",
+   "frame_files": [
+    "ui/icons/icon_metal.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: metal"
+  },
+  {
+   "name": "icon_fuel",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_fuel.png",
+   "frame_files": [
+    "ui/icons/icon_fuel.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: fuel"
+  },
+  {
+   "name": "icon_ammunition",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_ammunition.png",
+   "frame_files": [
+    "ui/icons/icon_ammunition.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: ammunition"
+  },
+  {
+   "name": "icon_health",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_health.png",
+   "frame_files": [
+    "ui/icons/icon_health.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: health"
+  },
+  {
+   "name": "icon_wave",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_wave.png",
+   "frame_files": [
+    "ui/icons/icon_wave.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: wave"
+  },
+  {
+   "name": "icon_machine_gun",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_machine_gun.png",
+   "frame_files": [
+    "ui/icons/icon_machine_gun.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: machine gun"
+  },
+  {
+   "name": "icon_cannon",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_cannon.png",
+   "frame_files": [
+    "ui/icons/icon_cannon.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: cannon"
+  },
+  {
+   "name": "icon_generator",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_generator.png",
+   "frame_files": [
+    "ui/icons/icon_generator.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: generator"
+  },
+  {
+   "name": "icon_ammo_factory",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_ammo_factory.png",
+   "frame_files": [
+    "ui/icons/icon_ammo_factory.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: ammo factory"
+  },
+  {
+   "name": "icon_repair_station",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_repair_station.png",
+   "frame_files": [
+    "ui/icons/icon_repair_station.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: repair station"
+  },
+  {
+   "name": "icon_walls",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_walls.png",
+   "frame_files": [
+    "ui/icons/icon_walls.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: walls"
+  },
+  {
+   "name": "icon_mine",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_mine.png",
+   "frame_files": [
+    "ui/icons/icon_mine.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: mine"
+  },
+  {
+   "name": "icon_build",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_build.png",
+   "frame_files": [
+    "ui/icons/icon_build.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: build"
+  },
+  {
+   "name": "icon_remove",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_remove.png",
+   "frame_files": [
+    "ui/icons/icon_remove.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: remove"
+  },
+  {
+   "name": "icon_upgrade",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_upgrade.png",
+   "frame_files": [
+    "ui/icons/icon_upgrade.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: upgrade"
+  },
+  {
+   "name": "icon_scrap_collector",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/icon_scrap_collector.png",
+   "frame_files": [
+    "ui/icons/icon_scrap_collector.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "UI icon: scrap collector"
+  },
+  {
+   "name": "select_machine_gun",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_machine_gun.png",
+   "frame_files": [
+    "ui/icons/select_machine_gun.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: machine_gun"
+  },
+  {
+   "name": "select_machine_gun_selected",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_machine_gun_selected.png",
+   "frame_files": [
+    "ui/icons/select_machine_gun_selected.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: machine_gun"
+  },
+  {
+   "name": "select_cannon",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_cannon.png",
+   "frame_files": [
+    "ui/icons/select_cannon.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: cannon"
+  },
+  {
+   "name": "select_cannon_selected",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_cannon_selected.png",
+   "frame_files": [
+    "ui/icons/select_cannon_selected.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: cannon"
+  },
+  {
+   "name": "select_generator",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_generator.png",
+   "frame_files": [
+    "ui/icons/select_generator.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: generator"
+  },
+  {
+   "name": "select_generator_selected",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_generator_selected.png",
+   "frame_files": [
+    "ui/icons/select_generator_selected.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: generator"
+  },
+  {
+   "name": "select_ammo_factory",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_ammo_factory.png",
+   "frame_files": [
+    "ui/icons/select_ammo_factory.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: ammo_factory"
+  },
+  {
+   "name": "select_ammo_factory_selected",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_ammo_factory_selected.png",
+   "frame_files": [
+    "ui/icons/select_ammo_factory_selected.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: ammo_factory"
+  },
+  {
+   "name": "select_repair_station",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_repair_station.png",
+   "frame_files": [
+    "ui/icons/select_repair_station.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: repair_station"
+  },
+  {
+   "name": "select_repair_station_selected",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_repair_station_selected.png",
+   "frame_files": [
+    "ui/icons/select_repair_station_selected.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: repair_station"
+  },
+  {
+   "name": "select_walls",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_walls.png",
+   "frame_files": [
+    "ui/icons/select_walls.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: walls"
+  },
+  {
+   "name": "select_walls_selected",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_walls_selected.png",
+   "frame_files": [
+    "ui/icons/select_walls_selected.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: walls"
+  },
+  {
+   "name": "select_mine",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_mine.png",
+   "frame_files": [
+    "ui/icons/select_mine.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: mine"
+  },
+  {
+   "name": "select_mine_selected",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_mine_selected.png",
+   "frame_files": [
+    "ui/icons/select_mine_selected.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: mine"
+  },
+  {
+   "name": "select_scrap_collector",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_scrap_collector.png",
+   "frame_files": [
+    "ui/icons/select_scrap_collector.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: scrap_collector"
+  },
+  {
+   "name": "select_scrap_collector_selected",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/icons/select_scrap_collector_selected.png",
+   "frame_files": [
+    "ui/icons/select_scrap_collector_selected.png"
+   ],
+   "frame_width": 40,
+   "frame_height": 40,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    20,
+    20
+   ],
+   "use": "Building selection slot: scrap_collector"
+  },
+  {
+   "name": "panel_small",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/panels/panel_small.png",
+   "frame_files": [
+    "ui/panels/panel_small.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "9-slice panel, margin 5px",
+   "nine_slice": 5
+  },
+  {
+   "name": "panel_medium",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/panels/panel_medium.png",
+   "frame_files": [
+    "ui/panels/panel_medium.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 48,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    24
+   ],
+   "use": "9-slice panel, margin 5px",
+   "nine_slice": 5
+  },
+  {
+   "name": "panel_dark",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/panels/panel_dark.png",
+   "frame_files": [
+    "ui/panels/panel_dark.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "9-slice dark panel (tooltips), margin 5px",
+   "nine_slice": 5
+  },
+  {
+   "name": "panel_header",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/panels/panel_header.png",
+   "frame_files": [
+    "ui/panels/panel_header.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 16,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    8
+   ],
+   "use": "Panel header bar"
+  },
+  {
+   "name": "button_normal",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/buttons/button_normal.png",
+   "frame_files": [
+    "ui/buttons/button_normal.png"
+   ],
+   "frame_width": 48,
+   "frame_height": 24,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    24,
+    12
+   ],
+   "use": "9-slice button (normal), margin 4px",
+   "nine_slice": 4
+  },
+  {
+   "name": "button_hover",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/buttons/button_hover.png",
+   "frame_files": [
+    "ui/buttons/button_hover.png"
+   ],
+   "frame_width": 48,
+   "frame_height": 24,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    24,
+    12
+   ],
+   "use": "9-slice button (hover), margin 4px",
+   "nine_slice": 4
+  },
+  {
+   "name": "button_pressed",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/buttons/button_pressed.png",
+   "frame_files": [
+    "ui/buttons/button_pressed.png"
+   ],
+   "frame_width": 48,
+   "frame_height": 24,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    24,
+    12
+   ],
+   "use": "9-slice button (pressed), margin 4px",
+   "nine_slice": 4
+  },
+  {
+   "name": "button_disabled",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/buttons/button_disabled.png",
+   "frame_files": [
+    "ui/buttons/button_disabled.png"
+   ],
+   "frame_width": 48,
+   "frame_height": 24,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    24,
+    12
+   ],
+   "use": "9-slice button (disabled), margin 4px",
+   "nine_slice": 4
+  },
+  {
+   "name": "tile_select",
+   "category": "ui",
+   "kind": "animation",
+   "file": "ui/buttons/tile_select_pulse.png",
+   "frame_files": [
+    "ui/buttons/tile_select_pulse_00.png",
+    "ui/buttons/tile_select_pulse_01.png",
+    "ui/buttons/tile_select_pulse_02.png",
+    "ui/buttons/tile_select_pulse_03.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 4,
+   "animation": "pulse",
+   "frame_duration_ms": 150,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "1-tile selection cursor",
+   "loop": true
+  },
+  {
+   "name": "tile_select_2x2",
+   "category": "ui",
+   "kind": "animation",
+   "file": "ui/buttons/tile_select_2x2_pulse.png",
+   "frame_files": [
+    "ui/buttons/tile_select_2x2_pulse_00.png",
+    "ui/buttons/tile_select_2x2_pulse_01.png",
+    "ui/buttons/tile_select_2x2_pulse_02.png",
+    "ui/buttons/tile_select_2x2_pulse_03.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 4,
+   "animation": "pulse",
+   "frame_duration_ms": 150,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "2x2 selection cursor (64px buildings)",
+   "loop": true
+  },
+  {
+   "name": "placement_valid_32",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/buttons/placement_valid_32.png",
+   "frame_files": [
+    "ui/buttons/placement_valid_32.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Placement overlay (valid) for 32px footprint"
+  },
+  {
+   "name": "placement_invalid_32",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/buttons/placement_invalid_32.png",
+   "frame_files": [
+    "ui/buttons/placement_invalid_32.png"
+   ],
+   "frame_width": 32,
+   "frame_height": 32,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    16,
+    16
+   ],
+   "use": "Placement overlay (invalid) for 32px footprint"
+  },
+  {
+   "name": "placement_valid_64",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/buttons/placement_valid_64.png",
+   "frame_files": [
+    "ui/buttons/placement_valid_64.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Placement overlay (valid) for 64px footprint"
+  },
+  {
+   "name": "placement_invalid_64",
+   "category": "ui",
+   "kind": "static",
+   "file": "ui/buttons/placement_invalid_64.png",
+   "frame_files": [
+    "ui/buttons/placement_invalid_64.png"
+   ],
+   "frame_width": 64,
+   "frame_height": 64,
+   "frames": 1,
+   "animation": "static",
+   "frame_duration_ms": 0,
+   "direction": "none",
+   "pivot": [
+    32,
+    32
+   ],
+   "use": "Placement overlay (invalid) for 64px footprint"
+  }
+ ]
+}
